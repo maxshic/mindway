@@ -1,0 +1,24 @@
+$mainColor:  #00a6c8;
+$sidebg: #3f3f47;
+
+.main-header{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    .main-header-l{
+        display: inline-block;
+        position: absolute;
+        width: 3px;
+        height: 15px;
+        background-color: #543415;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .main-header-name{
+        margin-left: 15px;
+    }
+}
